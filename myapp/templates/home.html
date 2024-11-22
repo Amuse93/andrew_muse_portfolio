@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Django Website</title>
+</head>
+<body>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <h1>Welcome to My Django Website</h1>
+    <a href="{% url 'test' %}">Go to Test Page</a>
+</body>
+</html>
